@@ -13,6 +13,7 @@ public class Executavel {
 		baseCalculo.setSalario(Double.parseDouble(salario));
 		baseCalculo.setProdutividade(Double.parseDouble(produtividade));		
 		
+		//Imprimindo
 		System.out.println("O salario é " + baseCalculo.getSalario());
 		System.out.println("A produtividade é " + baseCalculo.getProdutividade());
 		System.out.println("O valor bruto é de " + baseCalculo.getValorBruto());
