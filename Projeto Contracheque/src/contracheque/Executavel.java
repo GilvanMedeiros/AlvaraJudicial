@@ -16,12 +16,17 @@ public class Executavel {
 		baseCalculo.setDataAdmissão(admissao);
 		
 		//Imprimindo
-		System.out.println("O salario é " + baseCalculo.getSalario());
-		System.out.println("A data de admissão é " + baseCalculo.getDataAdmissão());
-		System.out.println("A produtividade é " + baseCalculo.getProdutividade());
-		System.out.println("O valor bruto é de " + baseCalculo.getValorBruto());
-		System.out.println("O desconto é de " + baseCalculo.getDesconto());
-		System.out.println("O Liquido é de " + baseCalculo.getLiquido());			
+		System.out.println("Data de Admissão: " + baseCalculo.getDataAdmissão());
+		
+		System.out.println("Salário: R$ " + baseCalculo.getSalario());
+		
+		System.out.println("Produtividade: R$ " + baseCalculo.getProdutividade());
+		
+		System.out.println("Líquido: R$ " + baseCalculo.getValorBruto());
+		
+		System.out.println("30% INSS : " + baseCalculo.getPorcentagem());
+		
+		System.out.println("Líquido: " + baseCalculo.getLiquido());			
 	
 	}
 

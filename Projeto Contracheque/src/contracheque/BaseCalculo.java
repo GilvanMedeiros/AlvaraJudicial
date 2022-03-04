@@ -46,22 +46,21 @@ public class BaseCalculo {
 	
 	///////////////////////////////////////////////////////////
 		public double getValorBruto() {
-		return this.salario += this.produtividade;
+		return this.salario + this.produtividade;
 	}
 	
 	/////////////////////////////////////////////////////////
 	//estou errando nesse ponto
 		
-		public double getDesconto() {
+		public double getPorcentagem() {
 			var valorBruto = this.getValorBruto();
-			var percentual = 30.0 / 100;
-			var resultado = valorBruto -= percentual;
-			return resultado;
+			var percentual = (valorBruto * 30) / 100 ;
+			return percentual;
 	}	
 		
 	////////////////////////////////////////////////////////////
 		public double getLiquido() {
-			return this.getValorBruto() -  this.getDesconto();
+			return this.getValorBruto() -  this.getPorcentagem();
 	}	
 	///////////////////////////////////////////////
 	
