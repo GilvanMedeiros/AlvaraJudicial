@@ -2,13 +2,23 @@ package contracheque;
 
 public class BaseCalculo {
 	String nome;
+	String dataAdmissão;
 	double salario;
 	double produtividade;
 	
 	/////////////////////////////////////////////////
 	
+	
 	public String getNome() {
 		return nome;
+	}
+
+	public String getDataAdmissão() {
+		return dataAdmissão;
+	}
+
+	public void setDataAdmissão(String dataAdmissão) {
+		this.dataAdmissão = dataAdmissão;
 	}
 
 	public void setNome(String nome) {
