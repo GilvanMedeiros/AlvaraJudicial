@@ -22,7 +22,7 @@ public class Executavel {
 		
 		System.out.println("Produtividade: R$ " + baseCalculo.getProdutividade());
 		
-		System.out.println("Líquido: R$ " + baseCalculo.getValorBruto());
+		System.out.println("Bruto: R$ " + baseCalculo.getValorBruto());
 		
 		System.out.println("30% INSS : " + baseCalculo.getPorcentagem());
 		
