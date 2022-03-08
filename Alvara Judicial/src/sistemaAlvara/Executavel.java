@@ -17,6 +17,10 @@ public class Executavel {
 		String conta = JOptionPane.showInputDialog("Numero da Conta Bancaria");
 		String advogado = JOptionPane.showInputDialog("Nome do Advogado");
 		String cpfAutor = JOptionPane.showInputDialog("CPF do Autor");
+		String Oab = JOptionPane.showInputDialog("OAB do Advogado");
+		
+		dados.setNomeJuiz(juiz);
+		dados.setCpfAutor(cpfAutor);
 	}
 
 }
