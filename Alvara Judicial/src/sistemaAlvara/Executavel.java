@@ -18,9 +18,22 @@ public class Executavel {
 		String advogado = JOptionPane.showInputDialog("Nome do Advogado");
 		String cpfAutor = JOptionPane.showInputDialog("CPF do Autor");
 		String Oab = JOptionPane.showInputDialog("OAB do Advogado");
+		String deposito = JOptionPane.showInputDialog("Valor Deposito");
 		
+		
+		//classe Dados Pessoais
 		dados.setNomeJuiz(juiz);
+		dados.setNomeAutor(autor);
+		dados.setNomeRé(re);
+		dados.setDataAlvara(dataAlvara);
+		dados.setNomeBanco(banco);
+		dados.setNomeAgencia(agencia);
+		dados.setNumeroConta(conta);
+		dados.setNomeAdvogadoAutor(advogado);
 		dados.setCpfAutor(cpfAutor);
+		dados.setOabAdvogado(Oab);
+		
+		
 	}
 
 }

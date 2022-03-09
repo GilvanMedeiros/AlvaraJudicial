@@ -14,8 +14,21 @@ public class DadosPessoais {
 	String nomeAdvogadoAutor;
 	String cpfAutor;
 	String OabAdvogado;
+
+	/////////////////////////////////////////////////////
 	
+	ValorDeposito deposito = new ValorDeposito();
 	
+	public ValorDeposito getDeposito() {
+		return deposito;
+	}
+
+	public void setDeposito(ValorDeposito deposito) {
+		this.deposito = deposito;
+	}
+	
+	////////////////////////////////////////////////////////
+
 	//Geters Seters
 	public String getNomeJuiz() {
 		return nomeJuiz;
